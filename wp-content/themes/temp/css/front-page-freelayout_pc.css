@@ -1,0 +1,90 @@
+/* PCサイト*/
+#schedule>div>h2 {
+    font-size: 0;
+}
+
+#schedule>div>h2:before {
+    font-size: 46px !important;
+    content: 'C A S T';
+}
+
+#schedule>div>h3 {
+    font-size: 0;
+}
+
+#schedule>div>h3:before {
+    font-size: 16px !important;
+    content: 'キャスト一覧';
+}
+
+@media (max-width: 767.9px) {
+    #schedule>div>h2:before {
+        font-size: 32px !important;
+    }
+
+    #schedule>div>h3:before {
+        font-size: 12px !important;
+    }
+}
+
+.concept__inner {
+    display: flex;
+    margin-top: 100px;
+    max-width: 1062px;
+    margin-inline: auto;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.concept__inner .title_style {
+    border-bottom: 1px solid #000;
+    font-size: 1.5rem;
+    font-feature-settings: "palt";
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    line-height: 1.85rem;
+    color: #000;
+}
+
+.concept__inner p {
+    font-size: 0.8rem;
+    line-height: 1.35rem;
+}
+
+@media (max-width: 767.9px) {
+    .concept__inner {
+        flex-direction: column;
+        max-width: 347px;
+    }
+
+    .concept__inner img {
+        width: 100%;
+    }
+}
+
+/* btn用 他の写し */
+.button_style.more-btn {
+    width: 271px;
+    height: 46px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 17px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    font-size: 14px;
+    padding-bottom: 3px;
+}
+
+@media (max-width: 767.9px) {
+    .button_style.more-btn {
+        width: 187px;
+        height: 35px;
+        margin-top: 33px;
+    }
+}
